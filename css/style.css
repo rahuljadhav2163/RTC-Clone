@@ -1,0 +1,584 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: #f6f8fa;
+}
+
+.container-1 {
+    margin-top: 0;
+    height: 53px;
+    width: 100%;
+    background-color: #ffebcd;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.course-name {
+    margin-top: 60px;
+    margin-left: 370px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid orange;
+
+}
+
+.call-imgs {
+    margin-left: 10px;
+    height: 17px;
+    margin-top: 22px;
+}
+
+.head {
+    margin-top: 10px;
+}
+
+.mob-noo {
+    margin-left: 5px;
+    margin-top: 19px;
+}
+
+.container-2 {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 3px 3px rgb(237, 230, 230);
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.container-2:hover{
+    cursor: pointer;
+}
+
+.rtc-logo {
+    height: 37px;
+    margin-top: 12px;
+    margin-left: 110px;
+}
+
+.rtc-name {
+    font-size: 22px;
+    margin-top: 17px;
+    margin-left: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 10;
+    
+
+}
+
+.first {
+    margin-left: 270px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    margin-left: 20px;
+    font-size: 17px;
+    margin-top: 20px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.my-img {
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.my-name {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.head-img {
+    height: 420px;
+    margin-left: 210px;
+    filter: drop-shadow(0 0 13px #407bff);
+
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.head-line {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+.subhead-line {
+    margin-left: 140px;
+    margin-top: -15px;
+    font-size: 23px;
+}
+
+.btn-1 {
+    width: 150px;
+    height: 36px;
+    background-color: #212529;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-left: 140px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    margin-left: 50px;
+    width: 100px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #ffc107;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.music-img {
+    height: 18px;
+    margin-left: 2px;
+    margin-top: -5px;
+
+}
+
+.text-1 {
+    color: #4285f4;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 120px;
+}
+
+.text-2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+.conatainer-4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 100px;
+    width: 420px;
+    background-color: white;
+    border: 1px solid #e2e4e8;
+    border-radius: 7px;
+    margin-left: 120px;
+    margin-bottom: 18px;
+    margin-top: 30px;
+
+}
+
+.box-2 {
+    margin-left: 20px;
+}
+
+.teach-assi-img {
+    height: 430px;
+    margin-left: 1050px;
+    margin-top: -370px;
+    filter: drop-shadow(0 0 13px #ffc100);
+}
+
+.gmeet-img {
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 1px #e8d6c5 solid;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.doubt-img {
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 1px #e8d6c5 solid;
+    border-radius: 5px;
+    padding: 3px;
+    height: 57px;
+
+}
+
+.lines {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.courses {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.conatainer-6 {
+    display: flex;
+    margin-left: 65px;
+
+
+
+}
+
+.card {
+    height: 520px;
+    width: 415px;
+    background-color: #ffffff;
+
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 0.1px 4px 1px 0px #4285f4;
+
+    margin-bottom: 30px;
+}
+
+.course-img {
+    width: 405px;
+    margin-left: 4px;
+    margin-top: 5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.icp {
+
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description {
+    margin-left: 10px;
+    margin-top: -10px
+}
+
+.cal-img {
+    height: 30px;
+    margin-left: -370px;
+}
+
+.date {
+    margin-left: 40px;
+    margin-top: -27px;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.btn-3 {
+    width: 120px;
+    height: 35px;
+    border: none;
+    background-color: #212529;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-left: 143px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.btnn {
+    margin-top: 42px;
+}
+
+.liness {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+.container-8 {
+    display: flex;
+
+
+
+}
+
+.cards {
+
+    margin-left: 45px;
+    margin-top: 25px;
+    height: 180px;
+    width: 450px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.cards:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.card-img-student {
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.student-name {
+
+    display: flex;
+
+}
+
+.name {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-bottom: #bd5f07 2px solid;
+}
+.link{
+    height: 20px;
+    margin-left: 20px;
+}
+.college-name{
+    display: flex;
+
+}
+.clg-name{
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.named{
+    display: flex;
+}
+.slogen{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container-9{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-card{
+    background-color: white;
+    height: 380px;
+    width: 280px;
+    border: 1px solid black;
+    margin-left: 85px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0.1px 5px 1px 0px #070707;
+
+}
+.team-card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.teacher-img{
+    width: 250px;
+    height: 260px;
+    margin-left: 15px;
+}
+.teacher-name{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.duty{
+    display: flex;
+}
+.teach-duty{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.socil-img{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 35px;
+    
+}
+.conatainer-10{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 60p;
+    
+}
+.media-img{
+
+    height: 80px;
+    margin-left: 29px;
+    margin-top: 29px;
+    
+
+}
+.link-img
+{
+    margin-left: 200px;
+    height: 140px;
+    width: 140px;
+    background-color: white;
+    border:;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 10px #ccc;
+
+}
+.link-img:hover{
+
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px #887f7f;
+
+
+}
+
+
+
+
+
+.containers {
+    background-color: #0b1120;
+    height: 280px;
+    width: 100%;
+
+    margin-top: 60px;
+    display: flex;
+}
+.container-10{
+    width: 300px;
+    margin-left: 30px;
+}
+
+.logos-img {
+    height: 50px;
+    margin-top: 5px;
+    
+}
+.text{
+    color: white;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-top: 30px;
+    
+}
+.container-20{
+    margin-left: 180px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    font-size: 20px
+}
+.line{
+    color: orange;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.container-30{
+    margin-left: 210px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    font-size: 20px
+}
+.container-40{
+    margin-left: 160px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+    font-size: 20px
+}
+.link{
+    margin-top:  20px;
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.b1{
+    color: white;
+}
+.b1:hover{
+    transform: scale(1.1);
+     cursor: pointer;
+}
+.loc-img{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+#address{
+    margin-left: 62px;
+}
+.size{
+    font-size: 17px;
+    color: white;
+}
+.call-img{
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 36px;
+}
+.mob-no{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,;
+    margin-left: 10px;
+    color: white;
+}
+.mob-no:hover{
+ cursor: pointer;
+}
+.mail-img{
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 36px;
+}
+.mail{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,;
+    margin-left: 10px;
+    margin-top: -100px;
+    color: white;
+
+}
+.test{
+    font-size: 10px;
+    margin-top: 28px;
+    margin-left: 0px;
+    color: white;
+}
+.header{
+    color: white;
+}
+.rtc{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
