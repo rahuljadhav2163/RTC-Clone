@@ -360,10 +360,9 @@ body {
     font-size: 20px;
     border-bottom: #bd5f07 2px solid;
 }
-.students-info-link{
-    height: 17px;
+.link{
+    height: 20px;
     margin-left: 20px;
-    margin-top: 3px;
 }
 .college-name{
     display: flex;
@@ -400,11 +399,9 @@ body {
     box-shadow: 0.1px 5px 1px 0px #070707;
 
 }
-
 .team-card:hover{
-    margin-top: 15px;
-   
-    transition: 0.3s;
+    transform: scale(1.1);
+    transition: 0.5s;
     cursor: pointer;
 }
 .teacher-img{
